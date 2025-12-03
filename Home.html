@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe Bag</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="Style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="top-header">
+        <div class="top-container">
+
+            <div class="logo">
+                <img src="imgs/logo_top.svg" alt="logo">
+            </div>
+
+            <div class="top-right">
+                <span class="account">My Account <i class="fa-solid fa-chevron-down"></i></span>
+
+                <span class="wishlist">Wish List <span class="count">0</span></span>
+                <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+
+            </div>
+        </div>
+    </header>
+
+    <br>
+
+    <section class="second-nav">
+        <div class="second-container">
+            <button class="categories-btn">
+                <i class="fa-solid fa-bars"></i>Shop By Categories
+            </button>
+
+            <div class="search-group">
+                <select>
+                    <option>All Categories</option>
+                </select>
+                <input type="text" placeholder="Seach Products...">
+                <button class="search-btn"><i class="fa fa-search"></i></button>
+            </div>
+
+            <div class="location-phone">
+                <span><i class="fa-solid fa-location-dot"></i>Ahmedabad</span>
+                <span><i class="fa fa-headphones"></i> (215) 171-4729</span>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="hero-container">
+        <div class="hero-left">
+            <div class="hero-left-content">
+                <span class="deal-tag">Weekend Plan</span>
+
+                <h1 class="hero-title">
+                    Discover New<br>
+                    Amazing Grocery<br>
+                    Deals
+                </h1>
+
+                <p class="sub-text">Up to 50% OFF</p>
+                <button class="shop-btn">Shop Now</button>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <div class="hero-right-content">
+                <h2>40% OFF</h2>
+                <h3>Everyday Fresh</h3>
+                <p>On All Weekend</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <section class="shop-categories mt-5">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h2 class="fw-bold">Shop By Categories</h2>
+
+            <div class="category-arrows d-flex gap-2">
+                <button class="arrow-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="arrow-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <div class="row text-center justify-content-between">
+                <div class="col-6 col-md-2 category-box">
+                    <img src="imgs/fruit.png" class="img-fluid mb-2" alt="">
+                    <p class="cat-title">Fruit &<br> Vegetables</p>
+                </div>
+
+                <div class="col-6 col-md-2 category-box">
+                    <img src="imgs/dairy.png" class="img-fluid mb-2" alt="">
+                    <p class="cat-title">Dairy,Bread<br>& Eggs</p>
+                </div>
+
+                <div class="col-6 col-md-2 category-box">
+                    <img src="imgs/chicken.png" class="img-fluid mb-2" alt="">
+                    <p class="cat-title">Chicken,Meat<br>& Fish</p>
+                </div>
+
+                <div class="col-6 col-md-2 category-box">
+                    <img src="imgs/pet.png" class="img-fluid mb-2" alt="">
+                    <p class="cat-title">Pet Food</p>
+                </div>
+
+                <div class="col-6 col-md-2 category-box">
+                    <img src="imgs/cold.png" class="img-fluid mb-2" alt="">
+                    <p class="cat-title">Cold Drinks &<br> Juices</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="best-sellers mt-5">
+        <div class="container d-flex justify-content-between alogn-items-center">
+            <h2 class="fw-bold">Best Sellers</h2>
+            <a href="#" class="view-all">View All <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+
+        <div class="container mt-4">
+            <div class="row gy-4">
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/27.png" class="prod-img" alt="">
+                        <p class="prod-name">Waffles Homestyle</p>
+                        <p class="prod-weight">500 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>184</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="badge sale">Sale</span>
+
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/33.png" class="prod-img" alt="">
+                        <p class="prod-name">Bolognese Tofu Sauce</p>
+                        <p class="prod-weight">340 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>850</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/31.png" class="prod-img" alt="">
+                        <p class="prod-name">Sun Chips</p>
+                        <p class="prod-weight">100 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>184</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="badge new">New</span>
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/32.png" class="prod-img" alt="">
+                        <p class="prod-name">Cornichons Biona</p>
+                        <p class="prod-weight">300 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>184</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/34.png" class="prod-img" alt="">
+                        <p class="prod-name">Bread Mix Damily</p>
+                        <p class="prod-weight">500 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>184</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="best-sellers mt-5">
+        <div class="container d-flex justify-content-between alogn-items-center">
+            <h2 class="fw-bold">Most Popular</h2>
+            <a href="#" class="view-all">View All <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+
+        <div class="container mt-4">
+            <div class="row gy-4">
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/28.png" class="prod-img" alt="">
+                        <p class="prod-name">Oatmeal Cookie</p>
+                        <p class="prod-weight">5.8 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>200</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/29.png" class="prod-img" alt="">
+                        <p class="prod-name">Coltal Energy Drink</p>
+                        <p class="prod-weight">340 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>650</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="badge sale">Sale</span>
+
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/30.png" class="prod-img" alt="">
+                        <p class="prod-name">Soda Fresh Drinks</p>
+                        <p class="prod-weight">100 ml</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>200</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="badge new">New</span>
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/19.png" class="prod-img" alt="">
+                        <p class="prod-name">Cherrli Berry</p>
+                        <p class="prod-weight">100 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>250</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/20.png" class="prod-img" alt="">
+                        <p class="prod-name">Ergonomic Linen Pants</p>
+                        <p class="prod-weight">250 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>184</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <section class="onebanner">
+        <img src="imgs/one_banner.png">
+    </section>
+
+    <section class="best-sellers mt-5">
+        <div class="container d-flex justify-content-between alogn-items-center">
+            <h2 class="fw-bold">Fruits & Vegetables</h2>
+            <a href="#" class="view-all">View All <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+
+        <div class="container mt-4">
+            <div class="row gy-4">
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/11.png" class="prod-img" alt="">
+                        <p class="prod-name">Radish</p>
+                        <p class="prod-weight">100 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>150</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/12.png" class="prod-img" alt="">
+                        <p class="prod-name">Cabbage</p>
+                        <p class="prod-weight">100 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>50</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/13.png" class="prod-img" alt="">
+                        <p class="prod-name">Cucumber</p>
+                        <p class="prod-weight">100 gm</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>80</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/14.png" class="prod-img" alt="">
+                        <p class="prod-name">Cherrli Berry</p>
+                        <p class="prod-weight">100 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>200</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/15.png" class="prod-img" alt="">
+                        <p class="prod-name">Avocado</p>
+                        <p class="prod-weight">100 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>450</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="best-sellers mt-5">
+        <div class="container d-flex justify-content-between alogn-items-center">
+            <h2 class="fw-bold">Breakfast & Dairy</h2>
+            <a href="#" class="view-all">View All <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+
+        <div class="container mt-4">
+            <div class="row gy-4">
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/40.png" class="prod-img" alt="">
+                        <p class="prod-name">Milkmaid</p>
+                        <p class="prod-weight">500 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>600</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/38.png" class="prod-img" alt="">
+                        <p class="prod-name">Multi Grain Bread</p>
+                        <p class="prod-weight">200 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>100</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/36.png" class="prod-img" alt="">
+                        <p class="prod-name">Epigamia</p>
+                        <p class="prod-weight">100 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>80</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/37.png" class="prod-img" alt="">
+                        <p class="prod-name">Eggs</p>
+                        <p class="prod-weight">100 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>350</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/39.png" class="prod-img" alt="">
+                        <p class="prod-name">Food Gold</p>
+                        <p class="prod-weight">1 L</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>45</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="imgs/banner1.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-6">
+                <img src="imgs/banner2.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+
+    <section class="best-sellers mt-5">
+        <div class="container d-flex justify-content-between alogn-items-center">
+            <h2 class="fw-bold">Biscuits,Snacks & Chocolates</h2>
+            <a href="#" class="view-all">View All <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+
+        <div class="container mt-4">
+            <div class="row gy-4">
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/45.png" class="prod-img" alt="">
+                        <p class="prod-name">Wheat Thins Original</p>
+                        <p class="prod-weight">100 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>400</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/43.png" class="prod-img" alt="">
+                        <p class="prod-name">Werther's Original</p>
+                        <p class="prod-weight">50 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>50</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/41.png" class="prod-img" alt="">
+                        <p class="prod-name">Chocolate Combo</p>
+                        <p class="prod-weight">3 Pack</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>350</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="badge new">New</span>
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/42.png" class="prod-img" alt="">
+                        <p class="prod-name">Unibic ChocoNut</p>
+                        <p class="prod-weight">100 g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>120</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <div class="product-card">
+                        <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+                        <img src="imgs/category_img/44.png" class="prod-img" alt="">
+                        <p class="prod-name">Belvita Duo Crunch</p>
+                        <p class="prod-weight">150g</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="prod-price"><i class="fa-solid fa-indian-rupee-sign"></i>150</p>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="row">
+
+                <div class="col-md-4 footer-about">
+                    <img src="imgs/logo_footer.svg" class="footer-logo" alt="logo">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Autem iste provident delectus placeat illo voluptas laboriosam,
+                        id quo doloribus expedita corporis iusto,
+                        nihil asperiores eius natus facere vitae in architecto?
+                    </p>
+
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+
+                <div class="col-md-2 footer-links">
+                    <h4>Products Categories</h4>
+                    <ul>
+                        <li><a href="Categories.html">Fruit & Vegetables</a></li>
+                        <li>Breakfast & Dairy</li>
+                        <li>Biscuits,Snacks & Chocolates</li>
+                        <li>Pet Foods</li>
+                        <li>Chicken,Meat & Fish</li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-2 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Wishlist</li>
+                        <li>My Cart</li>
+                        <li>Blogs</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 footer-links">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>Terms & Conditions</li>
+                        <li>Shippings & Returns</li>
+                        <li></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <p class="footer-copy">© 2024 — All Rights Reserved by Safe Bag</p>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

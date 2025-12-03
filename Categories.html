@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="Style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="top-header">
+        <div class="top-container">
+
+            <div class="logo">
+                <img src="imgs/logo_top.svg" alt="logo">
+            </div>
+
+            <div class="top-right">
+                <span class="account">My Account <i class="fa-solid fa-chevron-down"></i></span>
+
+                <span class="wishlist">Wish List <span class="count">0</span></span>
+                <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+
+            </div>
+        </div>
+    </header>
+
+    <br>
+
+    <section class="second-nav">
+        <div class="second-container">
+            <button class="categories-btn">
+                <i class="fa-solid fa-bars"></i>Shop By Categories
+            </button>
+
+            <div class="search-group">
+                <select>
+                    <option>All Categories</option>
+                </select>
+                <input type="text" placeholder="Seach Products...">
+                <button class="search-btn"><i class="fa fa-search"></i></button>
+            </div>
+
+            <div class="location-phone">
+                <span><i class="fa-solid fa-location-dot"></i>Ahmedabad</span>
+                <span><i class="fa fa-headphones"></i> (215) 171-4729</span>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <section class="offer-banner d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 offer-text">
+                    <span class="small-title">Shop Online</span>
+                    <h1 class="main-title">
+                        Weekly Special Offers On<br>
+                        Fruit & Vegetables
+                    </h1>
+                    <button class="offer-btn">USE CODE F&V500</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-3">
+                <p class="text-muted mb-2" style="font-size: 14px;">
+                    <span style="cursor:pointer;"><a href="Home.html"
+                            style="color: #6c6b6b; text-decoration: none;">Home</a></span> ›
+                    <span style="cursor:pointer;">Fruit & Vegetables</span> ›
+                </p>
+
+                <h5 class="fw-bold mb-3">Categories</h5>
+                <div class="filter-box">
+                    <input type="text" class="form-control search-input" placeholder="Seach Products...">
+                    <ul class="list-unstyled mt-3 filter-list">
+                        <li><input type="checkbox">Fruit & Vegetables</li>
+                        <li><input type="checkbox">Dairy,Bread & Eggs</li>
+                        <li><input type="checkbox">Chicken,Meat & Fish</li>
+                        <li><input type="checkbox">Pet Food</li>
+                        <li><input type="checkbox">Cold Drinks & Juices</li>
+                        <li><input type="checkbox" checked>Biscuits,Snacks & Chocolates</li>
+                    </ul>
+                </div>
+
+                <h5 class="fw-bold mt-4 mb-3">Brands</h5>
+                <div class="filter-box">
+                    <input type="text" class="form-control search-input" placeholder="Seach Brand...">
+                    <ul class="list-unstyled mt-3 filter-list">
+                        <li><input type="checkbox">Aavin</li>
+                        <li><input type="checkbox">Cravoury</li>
+                        <li><input type="checkbox">D'Lecta</li>
+                        <li><input type="checkbox">Elite</li>
+                        <li><input type="checkbox">English Oven</li>
+                        <li><input type="checkbox" checked>Epigamia Origins</li>
+                    </ul>
+                </div>
+
+                <h5 class="fw-bold mt-4 mb-3">Price</h5>
+                <div class="filter-box">
+                    <ul class="list-unstyled mt-3 filter-list">
+                        <li><input type="checkbox">Less than Rs 20(61)</li>
+                        <li><input type="checkbox">Rs 21 to Rs 50(166)</li>
+                        <li><input type="checkbox">Rs 51 to Rs 100(170)</li>
+                        <li><input type="checkbox">Rs 101 to Rs 200(183)</li>
+                        <li><input type="checkbox">Rs 201 to Rs 500(116)</li>
+                        <li><input type="checkbox">More than Rs 501(62)</li>
+                    </ul>
+                </div>
+
+                <h5 class="fw-bold mt-4 mb-3">Discount</h5>
+                <div class="filter-box">
+                    <ul class="list-unstyled mt-3 filter-list">
+                        <li><input type="checkbox">Upto 5%(252)</li>
+                        <li><input type="checkbox">5% - 10%(359)</li>
+                        <li><input type="checkbox">10% - 15%(129)</li>
+                        <li><input type="checkbox">15% - 25%(118)</li>
+                        <li><input type="checkbox">More than 25%(68)</li>
+                    </ul>
+                </div>
+
+                <h5 class="fw-bold mt-4 mb-3">Food Preference</h5>
+                <div class="filter-box">
+                    <ul class="list-unstyled mt-3 filter-list">
+                        <li><input type="checkbox">Vegetarian</li>
+                        <li><input type="checkbox">Non Vegetarian</li>
+                        <li><input type="checkbox">Contains Egg</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="fw-semibold">Biscuits,Snacks & Chocolates</h4>
+                    <select class="form-select w-auto">
+                        <option selected>Popularity</option>
+                        <option>Newest</option>
+                        <option>Price:Low to High</option>
+                        <option>Price:High to Low</option>
+                    </select>
+                </div>
+
+                <!-- First Section -->
+                <div class="row g-4">
+                    <div class="col md-4">
+                        <div class="product-card">
+                            <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                            <img src="imgs/category_img/45.png" class="img-fluid product-img">
+                            <h6 class="mt-3 fw-semibold">Waffles HomeStyle</h6>
+                            <p class="p-size">500 g</p>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <p class="product-price mb-0"><i class="fa-solid fa-indian-rupee-sign"></i>184</p>
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col md-4">
+                        <div class="product-card">
+                            <span class="tag sale">Sale</span>
+                            <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                            <img src="imgs/category_img/43.png" class="img-fluid product-img">
+                            <h6 class="mt-3 fw-semibold">Bolognese Tofu Sauce</h6>
+                            <p class="p-size">340 g</p>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <p class="product-price mb-0"><i class="fa-solid fa-indian-rupee-sign"></i>850</p>
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col md-4">
+                        <div class="product-card">
+                            <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                            <img src="imgs/category_img/41.png" class="img-fluid product-img">
+                            <h6 class="mt-3 fw-semibold">Sun Chips</h6>
+                            <p class="p-size">100 g</p>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <p class="product-price mb-0"><i class="fa-solid fa-indian-rupee-sign"></i>184</p>
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Section -->
+                <div class="row g-4">
+                    <div class="col md-4">
+                        <div class="product-card">
+                            <span class="tag sale">Sale</span>
+                            <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                            <img src="imgs/category_img/31.png" class="img-fluid product-img">
+                            <h6 class="mt-3 fw-semibold">Coffee Fresh Drink</h6>
+                            <p class="p-size">100ml</p>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <p class="product-price mb-0"><i class="fa-solid fa-indian-rupee-sign"></i>200</p>
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col md-4">
+                        <div class="product-card">
+                            <span class="tag new">New</span>
+
+                            <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                            <img src="imgs/category_img/19.png" class="img-fluid product-img">
+                            <h6 class="mt-3 fw-semibold">Cherrli Berry</h6>
+                            <p class="p-size">100g</p>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <p class="product-price mb-0"><i class="fa-solid fa-indian-rupee-sign"></i>250</p>
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col md-4">
+                        <div class="product-card">
+                            <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                            <img src="imgs/category_img/20.png" class="img-fluid product-img">
+                            <h6 class="mt-3 fw-semibold">Ergonomic Linen Pants</h6>
+                            <p class="p-size">250g</p>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <p class="product-price mb-0"><i class="fa-solid fa-indian-rupee-sign"></i>184</p>
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third Section -->
+                <div class="row g-4">
+                    <div class="col md-4">
+                        <div class="product-card">
+                            <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                            <img src="imgs/category_img/30.png" class="img-fluid product-img">
+                            <h6 class="mt-3 fw-semibold">Milkmaid</h6>
+                            <p class="p-size">500g</p>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <p class="product-price mb-0"><i class="fa-solid fa-indian-rupee-sign"></i>600</p>
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col md-4">
+                        <div class="product-card">
+                            <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                            <img src="imgs/category_img/36.png" class="img-fluid product-img">
+                            <h6 class="mt-3 fw-semibold">Multi Grain Bread</h6>
+                            <p class="p-size">200g</p>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <p class="product-price mb-0"><i class="fa-solid fa-indian-rupee-sign"></i>100</p>
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col md-4">
+                        <div class="product-card">
+                            <span class="tag bestsel">Best Seller</span>
+
+                            <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                            <img src="imgs/category_img/44.png" class="img-fluid product-img">
+                            <h6 class="mt-3 fw-semibold">Epigamia</h6>
+                            <p class="p-size">100g</p>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <p class="product-price mb-0"><i class="fa-solid fa-indian-rupee-sign"></i>150</p>
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fourth Section -->
+
+                <div class="row g-4">
+                    <div class="col md-4">
+                        <div class="product-card">
+                            <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                            <img src="imgs/category_img/38.png" class="img-fluid product-img">
+                            <h6 class="mt-3 fw-semibold">Chocolate Combo</h6>
+                            <p class="p-size">3 Pack</p>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <p class="product-price mb-0"><i class="fa-solid fa-indian-rupee-sign"></i>350</p>
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col md-4">
+                        <div class="product-card">
+                            <span class="tag new">New</span>
+
+                            <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                            <img src="imgs/category_img/39.png" class="img-fluid product-img">
+                            <h6 class="mt-3 fw-semibold">Unibic ChocoNut</h6>
+                            <p class="p-size">100g</p>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <p class="product-price mb-0"><i class="fa-solid fa-indian-rupee-sign"></i>120</p>
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col md-4">
+                        <div class="product-card">
+                            <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                            <img src="imgs/category_img/40.png" class="img-fluid product-img">
+                            <h6 class="mt-3 fw-semibold">Belvita Dio Crunch</h6>
+                            <p class="p-size">150g</p>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <p class="product-price mb-0"><i class="fa-solid fa-indian-rupee-sign"></i>150</p>
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fifth Section -->
+                <div class="row g-4">
+                    <div class="col md-4">
+                        <div class="product-card">
+                            <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                            <img src="imgs/category_img/31.png" class="img-fluid product-img">
+                            <h6 class="mt-3 fw-semibold">Wheat Thins Original</h6>
+                            <p class="p-size">100g</p>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <p class="product-price mb-0"><i class="fa-solid fa-indian-rupee-sign"></i>400</p>
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col md-4">
+                        <div class="product-card">
+                            <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                            <img src="imgs/category_img/32.png" class="img-fluid product-img">
+                            <h6 class="mt-3 fw-semibold">Werther's Original</h6>
+                            <p class="p-size">50g</p>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <p class="product-price mb-0"><i class="fa-solid fa-indian-rupee-sign"></i>50</p>
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col md-4">
+                        <div class="product-card">
+                            <span class="wishlist-icon"><i class="fa-regular fa-heart"></i></span>
+                            <img src="imgs/category_img/34.png" class="img-fluid product-img">
+                            <h6 class="mt-3 fw-semibold">Oatmeal Cookie</h6>
+                            <p class="p-size">5.8g</p>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <p class="product-price mb-0"><i class="fa-solid fa-indian-rupee-sign"></i>200</p>
+                                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center my-5">
+                        <button class="show-more-btn">Show More</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="row">
+
+                <div class="col-md-4 footer-about">
+                    <img src="imgs/logo_footer.svg" class="footer-logo" alt="logo">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Autem iste provident delectus placeat illo voluptas laboriosam,
+                        id quo doloribus expedita corporis iusto,
+                        nihil asperiores eius natus facere vitae in architecto?
+                    </p>
+
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+
+                <div class="col-md-2 footer-links">
+                    <h4>Products Categories</h4>
+                    <ul>
+                        <li><a href="Categories.html">Fruit & Vegetables</a></li>
+                        <li>Breakfast & Dairy</li>
+                        <li>Biscuits,Snacks & Chocolates</li>
+                        <li>Pet Foods</li>
+                        <li>Chicken,Meat & Fish</li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-2 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Wishlist</li>
+                        <li>My Cart</li>
+                        <li>Blogs</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 footer-links">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>Terms & Conditions</li>
+                        <li>Shippings & Returns</li>
+                        <li></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <p class="footer-copy">© 2024 — All Rights Reserved by Safe Bag</p>
+        </div>
+    </footer>
+</body>
+
+</html>
