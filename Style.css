@@ -833,3 +833,36 @@ body {
 .read-more:hover {
   color: #226e32;
 }
+
+.contact-box {
+  border: 1px solid #e1e1e1;
+  background: #fff;
+}
+
+.form-control-lg {
+  padding: 12px 14px;
+  font-size: 15px;
+  border-radius: 6px;
+}
+
+.btn-warning {
+  background-color: #f4b208;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-warning:hover {
+  background-color: #d69a05;
+}
+.border-md-end {
+  border-right: 1px solid #dcdcdc;
+}
+
+@media (max-width: 767px) {
+  .border-md-end {
+    border-right: none;
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+}
