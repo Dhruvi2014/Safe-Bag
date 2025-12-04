@@ -717,3 +717,119 @@ body {
     font-size: 20px;
     cursor: pointer;
 }
+
+.blog-details-section {
+    max-width: 1250px;    
+    margin: auto;         
+    padding-left: 0;      
+    padding-right: 0;     
+}
+.breadcrumb-box p {
+    margin: 0;
+    margin-left: 25px;
+    padding: 0;
+    font-size: 14px;
+    color: #6c6c6c;
+}
+
+.blog-details-section p {
+    line-height: 1.8;
+    color: #555;
+}
+
+.custom-quote {
+    background: #f5fff7;
+    border-radius: 5px;
+}
+
+.quote-icon {
+    font-size: 35px;
+    color: #000;
+    line-height: 1;
+}
+
+.sidebar-list li {
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.sidebar-list li:hover {
+    color: #4caf50;
+}
+.recent-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.tag-box {
+    background: #f1f1f1;
+    padding: 6px 13px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.tag-box:hover {
+    background: #4caf50;
+    color: #fff;
+}
+
+.reply-box {
+  background: #f7f7f7;
+}
+
+.reply-input,
+.reply-textarea {
+  background: white;
+  border-radius: 5px;
+  border: none;
+  height: 50px;
+}
+
+.reply-textarea {
+  height: 160px;
+  resize: none;
+  padding-top: 12px;
+}
+.btn-warning {
+  border-radius: 6px;
+}
+.blog-card {
+  border: 1px solid #e1e1e1;
+  transition: 0.3s;
+  background: #fff;
+  margin-left: 25px;
+}
+.blog-card:hover {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  cursor: pointer;
+}
+
+.blog-meta {
+  color: #777;
+  font-size: 14px;
+}
+
+.blog-title {
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.blog-desc {
+  font-size: 15px;
+  color: #777;
+  margin-bottom: 18px;
+}
+
+.read-more {
+  color: #2b8a3e;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.read-more i {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.read-more:hover {
+  color: #226e32;
+}
