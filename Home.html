@@ -14,6 +14,8 @@
 </head>
 
 <body>
+    <input type="checkbox" id="login-toggle" hidden>
+
     <header class="top-header">
         <div class="top-container">
 
@@ -22,7 +24,7 @@
             </div>
 
             <div class="top-right">
-                <span class="account">My Account <i class="fa-solid fa-chevron-down"></i></span>
+                <label for="login-toggle" class="account">My Account <i class="fa-solid fa-chevron-down"></i></label>
 
                 <span class="wishlist">Wish List <span class="count">0</span></span>
                 <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
@@ -612,7 +614,7 @@
                     <h4>Customer Service</h4>
                     <ul>
                         <li><a href="ContactUs.html" style="color: #fff; text-decoration: none;">Contact Us</a></li>
-                        <li>Terms & Conditions</li>
+                        <li><a href="Error.html">Terms & Conditions</a></li>
                         <li>Shippings & Returns</li>
                         <li></li>
                     </ul>
@@ -625,6 +627,28 @@
             <p class="footer-copy">© 2024 — All Rights Reserved by Safe Bag</p>
         </div>
     </footer>
+
+    <div class="modal">
+        <label for="login-toggle" class="overlay"></label>
+
+        <div class="modal-box">
+            <img src="imgs/logo_footer.svg" class="modal-logo">
+            <h2>Log-In to Your Account</h2>
+            <p>Hey, Enter your details to get login to your account</p>
+
+            <input type="email" placeholder="Enter Your Email Address">
+            <div class="password-input">
+                <input type="password" placeholder="Enter Your Password">
+                <i class="fa-regular fa-eye"></i>
+            </div>
+
+            <a href="#" class="forget">Forget Password</a>
+            <button class="login-btn">Log In</button>
+        </div>
+    </div>
+
+
+
 </body>
 
 </html>
