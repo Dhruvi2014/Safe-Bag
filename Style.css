@@ -5,26 +5,17 @@
     font-family: 'Inter', sans-serif;
 }
 
-/* body{
-    background-position: cover !important;
-    background-repeat: no-repeat !important;
-    background-size: cover;
-} */
  body {
-     font-family: 'Inter', sans-serif;
-     /* background: linear-gradient(90deg, #f6fff9 0%, #eef8f6 100%); */
      background-position: cover !important;
      background-repeat: no-repeat !important;
      background-size: cover;
      justify-content: center;
-
  }
 
 body {
     overflow-x: hidden;
     /* overflow: hidden; */
 }
-
 
 .onebanner {
     max-width: 100%;
@@ -994,7 +985,6 @@ body {
     cursor: pointer;
     text-decoration: none;
 }
-
 
 .home-btn:hover {
     background-color: #e19b1c;
